@@ -21,3 +21,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.my-img{
+  clip-path:circle(50% at 50% 50%);
+  animation: morph 7s ease-in-out infinite forwards alternate;
+}
+
+@keyframes morph{
+  0%{clip-path:circle(50% at 50% 50%);}
+  25%{clip-path: circle(50% at 45% 50%);}
+  50%{clip-path: ccircle(50% at 54% 46%);}
+  75%{clip-path: circle(50% at 55% 52%);}
+  100%{clip-path: circle(50% at 51% 52%);}
+}

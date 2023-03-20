@@ -5,7 +5,7 @@ import { IoIosMailOpen } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className=" py-[8rem]">
+    <div className=" py-[10rem] mx-3 lg:mx-80 px-10">
       <div>
         <p className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]">
           Contact

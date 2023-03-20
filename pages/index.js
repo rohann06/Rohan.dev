@@ -1,6 +1,7 @@
 import Head from "next/head";
 import About from "../components/About";
 import Contact from "../components/Contact";
+import HeroSection from "../components/HeroSection";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" mx-3 lg:mx-80 text-center lg:text-left">
+      <main>
+        <HeroSection/>
         <About/>
         <Contact />
       </main>
