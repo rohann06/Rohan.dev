@@ -1,4 +1,5 @@
 import Head from "next/head";
+import About from "../components/About";
 import Contact from "../components/Contact";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
 
       <main className=" mx-3 lg:mx-80 text-center lg:text-left">
+        <About/>
         <Contact />
       </main>
     </div>
