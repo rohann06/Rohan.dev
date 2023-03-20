@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -9,9 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <div>
-        </div>
+      <main className=" mx-3 lg:mx-80 text-center lg:text-left">
+        <Contact />
       </main>
     </div>
   );
