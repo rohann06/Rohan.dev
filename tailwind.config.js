@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily:{
         'Poppins':'Poppins',
+      },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
       }
     },
   },
