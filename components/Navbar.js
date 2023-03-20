@@ -23,7 +23,7 @@ const Navbar = () => {
         <p onClick={() => setNavOpen(!navOpen)}  className=" lg:hidden  text-3xl flex justify-end py-[20px] px-[40px]">
             <RxCross2/>
         </p>
-        <p onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 my-10 lg:my-0">Home</p>
+        <p onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 mt-24 my-10 lg:my-0">Home</p>
 
         <p onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 my-10 lg:my-0">About</p>
 
