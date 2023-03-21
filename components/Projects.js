@@ -20,9 +20,8 @@ const Projects = () => {
     project();
   }, []);
 
-
   return (
-    <div className=" bg-[#f9f9f9] px-3 lg:px-80 h-screen w-screen py-[5rem] lg:py-[5rem]">
+    <div className=" bg-[#f9f9f9] px-3 lg:px-96 py-[5rem] lg:py-[5rem]">
       <div>
         <p className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]">
           Projects
@@ -33,20 +32,20 @@ const Projects = () => {
       </div>
 
       <div>
-      {projects &&
-            projects.map((project) => {
-              return (
-                <div key={project.id}>
-                  <ProjectCard
-                    title={project.title}
-                    description={project.description}
-                    repoLink={project.githubUrl}
-                    appLink={project.appUrl}
-                    image={project.projectImageUrl}
-                  />
-                </div>
-              );
-            })}
+        {projects &&
+          projects.map((project) => {
+            return (
+              <div key={project.id}>
+                <ProjectCard
+                  title={project.title}
+                  description={project.description}
+                  repoLink={project.githubUrl}
+                  appLink={project.appUrl}
+                  image={project.projectImageUrl}
+                />
+              </div>
+            );
+          })}
       </div>
     </div>
   );
