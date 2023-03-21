@@ -5,7 +5,7 @@ import { IoIosMailOpen } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className=" py-[10rem] mx-3 lg:mx-80 px-10">
+    <div className=" py-[10rem] px-3 lg:px-96 px-10">
       <div>
         <p className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]">
           Contact
@@ -24,7 +24,7 @@ const Contact = () => {
           <div className=" lg:text-left text-[17px] ">
             <p className=" font-bold">Locatin</p>
             <p className=" text-[#8e8e8e] hover:text-[#147efb] duration-300 cursor-pointer">
-              Surat, India
+              Gujarat, India
             </p>
           </div>
         </div>
