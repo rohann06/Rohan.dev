@@ -5,12 +5,12 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <div id="hero" className=" bg-[#f9f9f9] px-3 lg:px-96 h-screen w-screen flex justify-center items-center">
+    <div id="hero" className=" bg-[#f9f9f9] px-3 lg:px-96 py-10 lg:py-0 lg:h-screen w-screen flex justify-center items-center">
       <div>
         <div className=" pt-24 lg:pt-16">
           <div className="flex flex-col-reverse lg:flex-row items-center justify-around">
             <div>
-              <h1 className=" text-[2.5rem] lg:text-[3.6rem] leading-[3rem] lg:leading-[4.4rem] font-bold my-[2rem]">
+              <h1 className=" text-[2.2rem] lg:text-[3.6rem] leading-[3rem] lg:leading-[4.4rem] font-bold my-[2rem]">
                 Front-End NextJs Developer 👋🏼
               </h1>
               <p className=" text-lg text-[#767676] font-Mulish w-[100%] lg:w-[85%]">

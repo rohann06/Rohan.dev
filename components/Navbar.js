@@ -4,7 +4,7 @@ import {GiHamburgerMenu} from 'react-icons/gi';
 import {RxCross2} from 'react-icons/rx';
 
 const Navbar = () => {
-  const[navOpen, setNavOpen] = useState(false);
+  const[navOpen, setNavOpen] = useState(true);
 
   return (
     <nav className=" fixed bg-white lg:flex justify-between items-center shadow-md w-full py-[18px] px-[40px] z-10">
