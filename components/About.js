@@ -6,7 +6,7 @@ import dev from "../public/dev.png";
 
 const About = () => {
   return (
-    <div className=" mx-3 h-screen flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 py-[5rem] lg:py-[10rem] px-3 lg:px-96 z-0">
+    <div className=" mx-3 h-screen flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 px-3 lg:px-80 z-0">
       <div className=" relative">
         <Image
           src={img}
@@ -27,7 +27,7 @@ const About = () => {
           About
         </p>
         <h1 className=" text-[25px] font-bold mb-[1rem]">
-          A dedicated Front-end Developer based in surat, India 📍
+          A dedicated Front-end Developer based in gujarat, India 📍
         </h1>
         <p className=" text-[#8e8e8e] font-Mulish">
           As a Junior Front-End Developer, I possess an impressive arsenal of
