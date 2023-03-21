@@ -23,13 +23,14 @@ const Navbar = () => {
         <p onClick={() => setNavOpen(!navOpen)}  className=" lg:hidden  text-3xl flex justify-end py-[20px] px-[40px]">
             <RxCross2/>
         </p>
-        <p onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 mt-24 my-10 lg:my-0">Home</p>
 
-        <p onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 my-10 lg:my-0">About</p>
+        <p className=" mt-40 my-10 lg:my-0"> <a href="#hero" onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300">Home</a></p>
 
-        <p onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 my-10 lg:my-0">Projec</p>
+        <p className=" my-10 lg:my-0"> <a href="#about" onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 ">About</a></p>
 
-        <p onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 my-10 lg:my-0">Contact</p>
+        <p className=" my-10 lg:my-0"><a href="#project" onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 ">Projec</a></p> 
+
+        <p className=" my-10 lg:my-0"><a href="#contact" onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 ">Contact</a></p>
 
       </div>
 

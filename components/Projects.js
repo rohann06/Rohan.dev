@@ -21,7 +21,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className=" bg-[#f9f9f9] px-3 lg:px-96 py-[5rem] lg:py-[5rem]">
+    <div id="project" className=" bg-[#f9f9f9] px-3 lg:px-96 py-[5rem] lg:py-[5rem]">
       <div>
         <p className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]">
           Projects

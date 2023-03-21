@@ -6,7 +6,7 @@ import { MdOpenInNew } from "react-icons/md";
 const ProjectCard = ({ title, description, repoLink, appLink, image }) => {
   console.log(image.remotePatterns);
   return (
-    <div className=" bg-white flex lg:flex-row flex-col justify-between items-center  gap-5  shadow-lg p-5 my-10 lg:my-12 rounded-xl">
+    <div className=" bg-white flex lg:flex-row flex-col justify-between items-center  gap-5  shadow-lg py-6 px-5 my-10 lg:my-12 rounded-xl">
       <div className=" shadow-md rounded-2xl overflow-hidden">
         <a href={appLink} target="_blank" rel="noopener noreferrer">
           <img

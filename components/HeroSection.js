@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <div className=" bg-[#f9f9f9] px-3 lg:px-96 h-screen w-screen flex justify-center items-center">
+    <div id="hero" className=" bg-[#f9f9f9] px-3 lg:px-96 h-screen w-screen flex justify-center items-center">
       <div>
         <div className=" pt-24 lg:pt-16">
           <div className="flex flex-col-reverse lg:flex-row items-center justify-around">
