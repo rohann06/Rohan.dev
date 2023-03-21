@@ -6,7 +6,7 @@ import dev from "../public/dev.png";
 
 const About = () => {
   return (
-    <div id="about" className=" mx-3 h-screen flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 px-3 lg:px-80 z-0">
+    <div id="about" className=" mx-3 py-24 lg:py-0  lg:h-screen flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 px-3 lg:px-80 z-0">
       <div className=" relative">
         <Image
           src={img}
