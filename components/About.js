@@ -30,7 +30,7 @@ const About = () => {
           A dedicated Front-end Developer from India📍
         </h1>
         <p className=" text-[#8e8e8e] font-Mulish">
-          As a Junior Front-End Developer, I possess an impressive arsenal of
+          As a Front-End Developer, I possess an impressive arsenal of
           skills in{" "}
           <span className=" text-black font-medium">
             Next.js , JavaScript , Typescript, Prisma, supabase, Tailwind CSS
