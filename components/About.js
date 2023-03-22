@@ -27,7 +27,7 @@ const About = () => {
           About
         </p>
         <h1 className=" text-[25px] font-bold mb-[1rem]">
-          A dedicated Front-end Developer
+          A dedicated Front-end Developer from India📍
         </h1>
         <p className=" text-[#8e8e8e] font-Mulish">
           As a Junior Front-End Developer, I possess an impressive arsenal of

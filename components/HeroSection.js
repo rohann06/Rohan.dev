@@ -14,7 +14,7 @@ const HeroSection = () => {
                 Front-End NextJs Developer 👋🏼
               </h1>
               <p className=" text-lg text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
-                Hi, I'm <span className=" text-[#4f4f4f] font-medium">Rohan Ahire</span>. A passionate Front-end React/Next.js
+                Hi, I'm <span className=" text-[#4f4f4f] font-bold">Rohan Ahire</span>. A passionate Front-end React/Next.js
                 Developer based in Gujarat, India. 📍
               </p>
               <div className=" flex items-center justify-center lg:justify-start gap-5 text-[20px] lg:text-[23px] my-5 lg:my-10 ">
