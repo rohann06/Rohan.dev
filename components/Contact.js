@@ -22,7 +22,7 @@ const Contact = () => {
             </p>
           </div>
           <div className=" lg:text-left text-[17px] ">
-            <p className=" font-bold">Locatin</p>
+            <p className=" font-bold">Location</p>
             <p className=" text-[#8e8e8e] hover:text-[#147efb] duration-300 cursor-pointer">
               Gujarat, India
             </p>
