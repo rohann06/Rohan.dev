@@ -2,17 +2,8 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const HeroSection = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 550,
-      offset: 0
-    });
-  }, []);
-
   return (
     <div
       id="hero"
@@ -78,19 +69,11 @@ const HeroSection = () => {
               </h1>
             </div>
             <div className=" flex flex-wrap justify-center items-center  gap-6 lg:gap-7">
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                className=" shadow-md rounded-full"
-              >
+              <div className=" shadow-md animate-[revel_1s_ease-in-out] rounded-full">
                 <img src={"/react.svg"} alt={"react"} className=" w-16 p-3 " />
               </div>
 
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1200"
-                className=" shadow-md rounded-full"
-              >
+              <div className=" shadow-md animate-[revel_1.2s_ease-in-out] rounded-full">
                 <img
                   src={"/next-js.svg"}
                   alt={"react"}
@@ -98,35 +81,19 @@ const HeroSection = () => {
                 />
               </div>
 
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1400"
-                className=" shadow-md rounded-full"
-              >
+              <div className=" shadow-md animate-[revel_1.3s_ease-in-out] rounded-full">
                 <img src={"/tw.svg"} alt={"react"} className=" w-16 p-3 " />
               </div>
 
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1500"
-                className=" shadow-md rounded-full"
-              >
+              <div className=" shadow-md animate-[revel_1.4s_ease-in-out] rounded-full">
                 <img src={"/js.svg"} alt={"react"} className=" w-16 p-4 " />
               </div>
 
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1600"
-                className=" shadow-md rounded-full"
-              >
+              <div className=" shadow-md animate-[revel_1.5s_ease-in-out] rounded-full">
                 <img src={"/ts.svg"} alt={"react"} className=" w-16 p-4 " />
               </div>
 
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1700"
-                className=" shadow-md rounded-full"
-              >
+              <div className=" shadow-md animate-[revel_1.6s_ease-in-out] rounded-full">
                 <img
                   src={"/postgresql.svg"}
                   alt={"react"}
@@ -134,11 +101,7 @@ const HeroSection = () => {
                 />
               </div>
 
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1800"
-                className=" shadow-md rounded-full"
-              >
+              <div className=" shadow-md animate-[revel_1.7s_ease-in-out] rounded-full">
                 <img src={"/prisma.svg"} alt={"react"} className=" w-16 p-4 " />
               </div>
             </div>

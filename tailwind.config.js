@@ -16,6 +16,22 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
+        'revel': 'revel 1s ease-in-out'
+      },
+      keyframes:{
+        revel:{
+          '0%':{
+            transform:'translateY(100px)',
+            opacity:'0'
+          },
+          '50%':{
+            opacity:'0'
+          },
+          '100%':{
+            transform:'translateY(0px)',
+            opacity:'1'
+          }
+        }
       }
     },
   },
