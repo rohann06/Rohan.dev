@@ -1,6 +1,8 @@
 import ProjectCard from "./ProjectCard";
 import React, { useEffect, useState } from "react";
 import { supabase } from "../supabaseClient";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Projects = () => {
   const [projects, setProjects] = useState();
@@ -16,12 +18,16 @@ const Projects = () => {
         console.log(error);
       }
     };
-
     project();
+
+    Aos.init({
+      duration: 1000,
+      offset: 250
+    });
   }, []);
 
   return (
-    <div id="project" className=" bg-[#f9f9f9] px-3 lg:px-96 py-[5rem] lg:py-[5rem]">
+    <div data-aos="fade-in" id="project" className=" bg-[#f9f9f9] px-3 lg:px-96 py-[5rem] lg:py-[5rem]">
       <div>
         <p className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]">
           Projects

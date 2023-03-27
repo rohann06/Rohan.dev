@@ -9,12 +9,12 @@ const HeroSection = () => {
   useEffect(() => {
     Aos.init({
       duration: 550,
+      offset: 50
     });
   }, []);
 
   return (
     <div
-      data-aos="fade-up"
       id="hero"
       className=" bg-[#f9f9f9] px-3 lg:px-96 py-10 lg:py-0 lg:h-screen w-screen flex justify-center items-center"
     >
@@ -33,8 +33,6 @@ const HeroSection = () => {
               </p>
               <div className=" flex items-center justify-center lg:justify-start gap-5 text-[20px] lg:text-[23px] my-5 lg:my-10 ">
                 <a
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
                   href="https://github.com/rohanA6"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -44,8 +42,6 @@ const HeroSection = () => {
                 </a>
 
                 <a
-                  data-aos="fade-in"
-                  data-aos-duration="1400"
                   href="https://twitter.com/rohanahire06"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -55,8 +51,6 @@ const HeroSection = () => {
                 </a>
 
                 <a
-                  data-aos="fade-in"
-                  data-aos-duration="1800"
                   href="https://www.linkedin.com/in/rohan-ahire-652001/"
                   target="_blank"
                   rel="noopener noreferrer"

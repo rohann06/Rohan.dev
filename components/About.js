@@ -20,7 +20,7 @@ const About = () => {
       id="about"
       className=" mx-3 py-24 lg:py-0  lg:h-screen flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 px-3 lg:px-80 z-0"
     >
-      <div data-aos="fade-right" className=" relative">
+      <div data-aos="fade-up-right" className=" relative">
         <Image
           src={img}
           height={200}
@@ -35,7 +35,7 @@ const About = () => {
           <Image src={dev} height={20} width={60} alt="devImg" />
         </p>
       </div>
-      <div data-aos="fade-left" className=" text-center lg:text-left lg:px-10 lg:w-[600px]">
+      <div data-aos="fade-up-left" className=" text-center lg:text-left lg:px-10 lg:w-[600px]">
         <p className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]">
           About
         </p>
