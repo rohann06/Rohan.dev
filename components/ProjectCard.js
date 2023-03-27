@@ -10,7 +10,7 @@ const ProjectCard = ({ title, description, repoLink, appLink, image }) => {
 
   useEffect(() => {
     Aos.init({
-      duration: 1000,
+      duration: 1200,
     });
   }, []);
 
