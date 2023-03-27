@@ -9,7 +9,7 @@ const HeroSection = () => {
   useEffect(() => {
     Aos.init({
       duration: 550,
-      offset: 50
+      offset: 40
     });
   }, []);
 
