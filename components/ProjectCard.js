@@ -1,12 +1,26 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { FaGithub } from "react-icons/fa";
 import { MdOpenInNew } from "react-icons/md";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ProjectCard = ({ title, description, repoLink, appLink, image }) => {
   console.log(image.remotePatterns);
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      offset: 190,
+    });
+  }, []);
+
   return (
-    <div className=" bg-white flex lg:flex-row flex-col justify-between items-center  gap-5  shadow-lg py-6 px-5 my-10 lg:my-12 rounded-xl">
+    <div
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
+      className=" bg-white flex lg:flex-row flex-col justify-between items-center  gap-5  shadow-lg py-6 px-5 my-10 lg:my-12 rounded-xl"
+    >
       <div className=" shadow-md rounded-2xl overflow-hidden">
         <a href={appLink} target="_blank" rel="noopener noreferrer">
           <img
