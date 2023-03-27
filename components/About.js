@@ -1,13 +1,26 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import img from "../public/about.webp";
 import img2 from "../public/about2.svg";
 import dev from "../public/dev.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      offset: 190
+    });
+  }, []);
+
   return (
-    <div id="about" className=" mx-3 py-24 lg:py-0  lg:h-screen flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 px-3 lg:px-80 z-0">
-      <div className=" relative">
+    <div
+      id="about"
+      className=" mx-3 py-24 lg:py-0  lg:h-screen flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 px-3 lg:px-80 z-0"
+    >
+      <div data-aos="fade-right" className=" relative">
         <Image
           src={img}
           height={200}
@@ -18,11 +31,11 @@ const About = () => {
         <div className=" bg-white animate-spin-slow rounded-full hidden lg:block absolute -bottom-1/4 -right-12 ">
           <Image src={img2} height={200} width={170} alt="about img" />
         </div>
-        <p className=" hidden lg:block text-[4rem] absolute -bottom-5 right-1">
+        <p data-aos="fade-in" data-aos-duration="1500" className=" hidden lg:block text-[4rem] absolute -bottom-5 right-1">
           <Image src={dev} height={20} width={60} alt="devImg" />
         </p>
       </div>
-      <div className=" text-center lg:text-left lg:px-10 lg:w-[600px]">
+      <div data-aos="fade-left" className=" text-center lg:text-left lg:px-10 lg:w-[600px]">
         <p className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]">
           About
         </p>
@@ -30,8 +43,7 @@ const About = () => {
           A dedicated Front-end Developer from India📍
         </h1>
         <p className=" text-[#8e8e8e] font-Mulish">
-          As a Front-End Developer, I possess an impressive arsenal of
-          skills in{" "}
+          As a Front-End Developer, I possess an impressive arsenal of skills in{" "}
           <span className=" text-black font-medium">
             Next.js , JavaScript , Typescript, Prisma, supabase, Tailwind CSS
             and PostgreSQL
