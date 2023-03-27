@@ -40,7 +40,7 @@ const About = () => {
       </div>
 
       <div
-        data-aos="fade-up"
+        data-aos="fade-in"
         className=" text-center lg:text-left lg:px-10 lg:w-[600px]"
       >
         <p data-aos="fade-right" className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]">
