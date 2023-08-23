@@ -36,7 +36,7 @@ const Contact = () => {
           >
             <p className=" font-bold">Location</p>
             <p className=" text-[#8e8e8e] hover:text-[#147efb] duration-300 cursor-pointer">
-              Gujarat, India
+              India
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Contact = () => {
             data-aos-duration="3000"
             className=" lg:before:text-left text-[17px] "
           >
-            <p className=" font-bold">Locatin</p>
+            <p className=" font-bold">Email</p>
             <a
               href="mailto:rohanahire006@gmail.com"
               className=" text-[#8e8e8e] hover:text-[#147efb] duration-300"
