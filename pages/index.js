@@ -3,6 +3,7 @@ import About from "../components/About";
 import Contact from "../components/Contact";
 import HeroSection from "../components/HeroSection";
 import Projects from "../components/Projects";
+import WorkExp from "../components/WorkExp";
 
 export default function Home() {
   return (
@@ -14,9 +15,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <HeroSection/>
-        <About/>
-        <Projects/>
+        <HeroSection />
+        <About />
+        <Projects />
+        <WorkExp />
         <Contact />
       </main>
     </div>

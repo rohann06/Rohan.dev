@@ -27,8 +27,11 @@ const Navbar = () => {
         <p className=" mt-40 my-10 lg:my-0"> <a href="#hero" onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300">Home</a></p>
 
         <p className=" my-10 lg:my-0"> <a href="#about" onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 ">About</a></p>
-
+   
         <p className=" my-10 lg:my-0"><a href="#project" onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 ">Projects</a></p> 
+
+        <p className=" my-10 lg:my-0"> <a href="#work" onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 ">Work EXP.</a></p>
+
 
         <p className=" my-10 lg:my-0"><a href="#contact" onClick={() => setNavOpen(!navOpen)} className=" cursor-pointer hover:text-[#147efb] duration-300 ">Contact</a></p>
 
