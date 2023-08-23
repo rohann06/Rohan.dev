@@ -22,11 +22,13 @@ const ProjectCard = ({ title, description, repoLink, appLink, image }) => {
     >
       <div className=" shadow-md rounded-2xl overflow-hidden">
         <a href={appLink} target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src={image}
+            height={400}
+            width={400}
             loading="lazy"
             alt={"project img"}
-            className=" w-[570px] hover:scale-105 duration-300 ease-in-out"
+            className=" h-auto w-[570px] hover:scale-105 duration-300 ease-in-out"
           />
         </a>
       </div>
