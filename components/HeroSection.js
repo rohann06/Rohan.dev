@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div
       id="hero"
-      className=" bg-[#f9f9f9] px-3 lg:px-96 py-10 lg:py-0 lg:h-screen w-screen flex justify-center items-center"
+      className=" bg-[#f9f9f9] px-3 lg:px-96 py-10 lg:py-0 lg:h-screen flex justify-center items-center"
     >
       <div>
         <div className=" pt-24 lg:pt-16">
