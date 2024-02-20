@@ -47,7 +47,7 @@ const About = () => {
           About
         </p>
         <h1 data-aos="fade-right" className=" text-[25px] font-bold mb-[1rem]">
-          A dedicated Front-end Developer from India📍
+          A dedicated Developer from India📍
         </h1>
         <p data-aos="fade-right" className=" text-[#8e8e8e] font-Mulish">
           As a Front-End Developer, I possess an impressive arsenal of skills in{" "}
