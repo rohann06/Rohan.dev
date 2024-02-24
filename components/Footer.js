@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -32,6 +33,14 @@ const Footer = () => {
           className=" hover:scale-125 duration-150 ease-in-out"
         >
           <FaLinkedin />
+        </a>
+        <a
+          href="mailto:rohanahire006@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" hover:scale-125 duration-150 ease-in-out"
+        >
+          <SiGmail />
         </a>
       </div>
     </div>
