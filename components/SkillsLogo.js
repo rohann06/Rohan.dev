@@ -7,8 +7,8 @@ const SkillsLogo = ({ src, alt, className }) => {
       <Image
         src={src}
         alt={alt}
-        height={10}
-        width={10}
+        height={500}
+        width={500}
         className=" w-16 md:w-20 p-4 md:p-5"
       />
     </div>

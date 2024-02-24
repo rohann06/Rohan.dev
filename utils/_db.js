@@ -27,4 +27,8 @@ export const data = [
     src: "/prisma.svg",
     Animation: "animate-[revel_1.7s_ease-in-out]",
   },
+  {
+    src: "/graphQl.png",
+    Animation: "animate-[revel_1.8s_ease-in-out]",
+  },
 ];
