@@ -10,7 +10,7 @@ const ProjectCard = ({ title, description, repoLink, appLink, image }) => {
 
   useEffect(() => {
     Aos.init({
-      duration: 1200,
+      duration: 1000,
     });
   }, []);
 
@@ -22,11 +22,12 @@ const ProjectCard = ({ title, description, repoLink, appLink, image }) => {
     >
       <div className=" shadow-md rounded-2xl overflow-hidden">
         <a href={appLink} target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src={image}
             alt="projectimg"
             loading="lazy"
-            fill="true"
+            height={500}
+            width={500}
             className=" h-auto w-[570px] hover:scale-105 duration-300 ease-in-out"
           />
         </a>

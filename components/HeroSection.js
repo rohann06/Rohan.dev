@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 import SkillsLogo from "./SkillsLogo";
 import { data } from "../utils/_db";
 
@@ -49,6 +50,14 @@ const HeroSection = () => {
                   className=" hover:text-[#147efb] duration-300  ease-in-out text-[1.8rem]"
                 >
                   <FaLinkedin />
+                </a>
+                <a
+                  href="mailto:rohanahire006@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" hover:text-[#147efb] duration-300  ease-in-out text-[1.8rem]"
+                >
+                  <SiGmail />
                 </a>
               </div>
             </div>

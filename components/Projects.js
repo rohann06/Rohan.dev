@@ -22,7 +22,7 @@ const Projects = () => {
 
     Aos.init({
       duration: 1000,
-      offset: 250
+      offset: 220
     });
   }, []);
 
