@@ -1,34 +1,34 @@
 export const data = [
   {
     src: "/react.svg",
-    Animation: "animate-[revel_1s_ease-in-out]",
+    dataaosduration: "1000",
   },
   {
     src: "/next-js.svg",
-    Animation: "animate-[revel_1.2s_ease-in-out]",
+    dataaosduration: "1200",
   },
   {
     src: "/tw.svg",
-    Animation: "animate-[revel_1.3s_ease-in-out]",
+    dataaosduration: "1400",
   },
   {
     src: "/js.svg",
-    Animation: "animate-[revel_1.4s_ease-in-out]",
+    dataaosduration: "1600",
   },
   {
     src: "/ts.svg",
-    Animation: "animate-[revel_1.5s_ease-in-out]",
+    dataaosduration: "1800",
   },
   {
     src: "/postgresql.svg",
-    Animation: "animate-[revel_1.6s_ease-in-out]",
+    dataaosduration: "1100",
   },
   {
     src: "/prisma.svg",
-    Animation: "animate-[revel_1.7s_ease-in-out]",
+    dataaosduration: "1700",
   },
   {
     src: "/graphQl.png",
-    Animation: "animate-[revel_1.8s_ease-in-out]",
+    dataaosduration: "1800",
   },
 ];

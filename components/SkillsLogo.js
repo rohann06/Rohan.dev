@@ -3,7 +3,12 @@ import React from "react";
 
 const SkillsLogo = ({ src, alt, className }) => {
   return (
-    <div className={`shadow-md ${className} rounded-full`}>
+    <div
+      data-aos="fade-up"
+      data-aos-delay="50"
+      data-aos-duration={className}
+      className={`shadow-md rounded-full`}
+    >
       <Image
         src={src}
         alt={alt}

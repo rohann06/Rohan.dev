@@ -86,7 +86,7 @@ const HeroSection = () => {
                     <SkillsLogo
                       src={logo.src}
                       alt={"react"}
-                      className={logo.Animation}
+                      className={logo.dataaosduration}
                     />
                   </>
                 );
