@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaImage } from "react-icons/fa";
 import { MdOpenInNew } from "react-icons/md";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -21,14 +21,20 @@ const ProjectCard = ({ title, description, repoLink, appLink, image }) => {
     >
       <div className=" shadow-md rounded-2xl overflow-hidden">
         <a href={appLink} target="_blank" rel="noopener noreferrer">
-          <Image
-            src={image}
-            alt="projectimg"
-            loading="lazy"
-            height={500}
-            width={500}
-            className=" h-auto w-[570px] hover:scale-105 duration-300 ease-in-out"
-          />
+          {image ? (
+            <Image
+              src={image}
+              alt="projectimg"
+              loading="lazy"
+              height={500}
+              width={500}
+              className=" h-auto w-[570px] hover:scale-105 duration-300 ease-in-out"
+            />
+          ) : (
+            <div className=" flex justify-center items-center h-[500px] w-[570px] hover:scale-105 duration-300 ease-in-out">
+              <FaImage className=" text-2xl text-gray-400" />
+            </div>
+          )}
         </a>
       </div>
       <div className=" flex flex-col justify-between lg:w-[50%] lg:px-10 text-center">

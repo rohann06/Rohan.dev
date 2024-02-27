@@ -31,4 +31,8 @@ export const data = [
     src: "/graphQl.png",
     dataaosduration: "1800",
   },
+  {
+    src: "/docker-icon.svg",
+    dataaosduration: "1200",
+  },
 ];
