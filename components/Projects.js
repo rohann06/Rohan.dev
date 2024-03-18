@@ -44,10 +44,10 @@ const Projects = () => {
 
       <div>
         {projects &&
-          projects.map((project) => {
+          projects.map((project, i) => {
             return (
-              <div key={project.id}>
-                {project?.id % 2 === 0 ? (
+              <div key={i}>
+                {i % 2 === 0 ? (
                   <ProjectCard_1
                     id={project.id}
                     title={project.title}

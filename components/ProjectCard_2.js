@@ -5,38 +5,21 @@ import { MdOpenInNew } from "react-icons/md";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const ProjectCard = ({ title, description, repoLink, appLink, image }) => {
+const ProjectCard_2 = ({ title, description, repoLink, appLink, image }) => {
   console.log(image.remotePatterns);
 
   useEffect(() => {
     Aos.init({
-      duration: 1000,
+      duration: 500,
+      offset: 100,
     });
   }, []);
 
   return (
     <div
-      data-aos="fade-up"
+      data-aos="fade-left"
       className=" bg-white flex lg:flex-row flex-col justify-between items-center  gap-5  shadow-lg py-6 px-5 my-10 lg:my-12 rounded-xl"
     >
-      <div className=" shadow-md rounded-2xl overflow-hidden">
-        <a href={appLink} target="_blank" rel="noopener noreferrer">
-          {image ? (
-            <Image
-              src={image}
-              alt="projectimg"
-              loading="lazy"
-              height={500}
-              width={500}
-              className=" h-auto w-[570px] hover:scale-105 duration-300 ease-in-out"
-            />
-          ) : (
-            <div className=" flex justify-center items-center h-[500px] w-[570px] hover:scale-105 duration-300 ease-in-out">
-              <FaImage className=" text-2xl text-gray-400" />
-            </div>
-          )}
-        </a>
-      </div>
       <div className=" flex flex-col justify-between lg:w-[50%] lg:px-10 text-center">
         <div>
           <h3 className=" mb-5 text-[1.5rem] font-bold">{title}</h3>
@@ -63,8 +46,26 @@ const ProjectCard = ({ title, description, repoLink, appLink, image }) => {
           </a>
         </div>
       </div>
+      <div className=" shadow-md rounded-2xl overflow-hidden">
+        <a href={appLink} target="_blank" rel="noopener noreferrer">
+          {image ? (
+            <Image
+              src={image}
+              alt="projectimg"
+              loading="lazy"
+              height={500}
+              width={500}
+              className=" h-auto w-[570px] hover:scale-105 duration-300 ease-in-out"
+            />
+          ) : (
+            <div className=" flex justify-center items-center h-[500px] w-[570px] hover:scale-105 duration-300 ease-in-out">
+              <FaImage className=" text-2xl text-gray-400" />
+            </div>
+          )}
+        </a>
+      </div>
     </div>
   );
 };
 
-export default ProjectCard;
+export default ProjectCard_2;
