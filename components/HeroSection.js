@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import SkillsLogo from "./SkillsLogo";
 import { data } from "../utils/_db";
+import { socials } from "../utils/_socialdb";
 
 const HeroSection = () => {
   return (
@@ -25,40 +26,18 @@ const HeroSection = () => {
                 A passionate Front-end Developer based in <br /> India📍
               </p>
               <div className=" flex items-center justify-center lg:justify-start gap-5 text-[20px] lg:text-[23px] my-5 lg:my-10 ">
-                <a
-                  href="https://github.com/rohanA6"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" hover:text-[#147efb] duration-300 ease-in-out text-[1.8rem]"
-                >
-                  <FaGithub />
-                </a>
-
-                <a
-                  href="https://twitter.com/rohanahire06"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" hover:text-[#147efb] duration-300  ease-in-out text-[1.8rem]"
-                >
-                  <FaTwitter />
-                </a>
-
-                <a
-                  href="https://www.linkedin.com/in/rohan6/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" hover:text-[#147efb] duration-300  ease-in-out text-[1.8rem]"
-                >
-                  <FaLinkedin />
-                </a>
-                <a
-                  href="mailto:rohanahire006@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" hover:text-[#147efb] duration-300  ease-in-out text-[1.8rem]"
-                >
-                  <SiGmail />
-                </a>
+                {socials.map((social) => (
+                  <>
+                    <a
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" hover:text-[#147efb] duration-300 ease-in-out text-[1.8rem]"
+                    >
+                      {social.logo}
+                    </a>
+                  </>
+                ))}
               </div>
             </div>
 

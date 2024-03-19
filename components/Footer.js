@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { socials } from "../utils/_socialdb";
 
 const Footer = () => {
   return (
@@ -8,40 +9,18 @@ const Footer = () => {
       <p>Rohan Ahire © 2023</p>
 
       <div className=" flex items-center gap-5 text-[23px] ">
-        <a
-          href="https://github.com/rohanA6"
-          target="_blank"
-          rel="noopener noreferrer"
-          className=" hover:scale-125 duration-150 ease-in-out"
-        >
-          <FaGithub />
-        </a>
-
-        <a
-          href="https://twitter.com/rohanahire06"
-          target="_blank"
-          rel="noopener noreferrer"
-          className=" hover:scale-125 duration-150 ease-in-out"
-        >
-          <FaTwitter />
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/rohan-ahire-652001/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className=" hover:scale-125 duration-150 ease-in-out"
-        >
-          <FaLinkedin />
-        </a>
-        <a
-          href="mailto:rohanahire006@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className=" hover:scale-125 duration-150 ease-in-out"
-        >
-          <SiGmail />
-        </a>
+        {socials.map((social) => (
+          <>
+            <a
+              href={social.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" hover:scale-125 duration-150 ease-in-out"
+            >
+              {social.logo}
+            </a>
+          </>
+        ))}
       </div>
     </div>
   );
