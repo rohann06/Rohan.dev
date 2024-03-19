@@ -17,8 +17,8 @@ const ProjectCard_1 = ({ title, description, repoLink, appLink, image }) => {
 
   return (
     <div
-      data-aos="fade-right"
-      className=" bg-white flex lg:flex-row flex-col justify-between items-center  gap-5  shadow-lg py-6 px-5 my-10 lg:my-12 rounded-xl"
+      data-aos="fade-up"
+      className=" bg-white flex lg:flex-row flex-col justify-between items-center  gap-5  shadow-lg py-7 px-5 my-10 lg:my-12 rounded-xl"
     >
       <div className=" shadow-md rounded-2xl overflow-hidden">
         <a href={appLink} target="_blank" rel="noopener noreferrer">

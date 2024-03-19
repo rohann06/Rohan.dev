@@ -17,8 +17,8 @@ const ProjectCard_2 = ({ title, description, repoLink, appLink, image }) => {
 
   return (
     <div
-      data-aos="fade-left"
-      className=" bg-white flex lg:flex-row flex-col justify-between items-center  gap-5  shadow-lg py-6 px-5 my-10 lg:my-12 rounded-xl"
+      data-aos="fade-up"
+      className=" bg-white flex lg:flex-row flex-col-reverse justify-between items-center  gap-5  shadow-lg py-6 px-5 my-10 lg:my-12 rounded-xl"
     >
       <div className=" flex flex-col justify-between lg:w-[50%] lg:px-10 text-center">
         <div>
