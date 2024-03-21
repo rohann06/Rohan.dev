@@ -1,5 +1,4 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { socials } from "../utils/_socialdb";
 
@@ -21,6 +20,12 @@ const Footer = () => {
             </a>
           </>
         ))}
+        <a
+          href="mailto:rohanahire006@gmail.com"
+          className=" hover:scale-125 duration-150 ease-in-out"
+        >
+          <SiGmail />
+        </a>
       </div>
     </div>
   );

@@ -38,6 +38,12 @@ const HeroSection = () => {
                     </a>
                   </>
                 ))}
+                <a
+                  href="mailto:rohanahire006@gmail.com"
+                  className=" hover:text-[#147efb] duration-300 ease-in-out text-[1.8rem]"
+                >
+                  <SiGmail />
+                </a>
               </div>
             </div>
 
