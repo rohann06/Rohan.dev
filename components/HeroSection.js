@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import React, { useEffect } from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import React from "react";
 import { SiGmail } from "react-icons/si";
 import SkillsLogo from "./SkillsLogo";
 import { data } from "../utils/_db";
@@ -24,6 +23,17 @@ const HeroSection = () => {
                 Hi, I'm{" "}
                 <span className=" text-[#4f4f4f] font-bold">Rohan Ahire</span>.
                 A passionate Front-end Developer based in <br /> India📍
+              </p>
+              <p className=" md:text-lg p-2 text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
+                Here is my{" "}
+                <a
+                  href="https://docs.google.com/document/d/1LJiAqN2DKVBtODnn8iBC6hfGrza6PHrClSsVD4wy7go/edit?usp=sharing"
+                  target="_blank"
+                  className=" text-[#147efb] font-bold"
+                >
+                  {" "}
+                  RESUME🎯
+                </a>{" "}
               </p>
               <div className=" flex items-center justify-center lg:justify-start gap-5 text-[20px] lg:text-[23px] my-5 lg:my-10 ">
                 {socials.map((social) => (
