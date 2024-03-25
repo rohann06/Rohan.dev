@@ -43,24 +43,31 @@ const About = () => {
         data-aos="fade-in"
         className=" text-center lg:text-left lg:px-10 lg:w-[600px]"
       >
-        <p data-aos="fade-right" className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]">
+        <p
+          data-aos="fade-right"
+          className=" uppercase text-[#147efb] font-bold mb-[1rem] text-[17px]"
+        >
           About
         </p>
         <h1 data-aos="fade-right" className=" text-[25px] font-bold mb-[1rem]">
-          A dedicated Developer from India📍
+          A passionate Developer.
         </h1>
         <p data-aos="fade-right" className=" text-[#8e8e8e] font-Mulish">
           As a Front-End Developer, I possess an impressive arsenal of skills in{" "}
           <span className=" text-black font-medium">
-            Next.js , JavaScript , Typescript, Prisma, supabase, Tailwind CSS
+            Next.js14 , JavaScript , Typescript, Prisma, supabase, Tailwind CSS
             and PostgreSQL
           </span>{" "}
-          . I excel in build and maintaining responsive websites that offer a
-          smooth user experience. My expertise lies in crafting dynamic,
-          engaging interfaces through writing clean and optimized code and
-          utilizing cutting-edge development tools and techniques. I am also a
-          team player who thrives in collaborating with cross-functional teams
-          to produce outstanding web applications.
+          Also have a full knowledhe fo{" "}
+          <span className=" text-black font-medium">MERN stack</span> and also
+          have a good understanding of DevOps tools like{" "}
+          <span className=" text-black font-medium">Docker and AWS.</span> I
+          excel in build and maintaining responsive websites that offer a smooth
+          user experience. My expertise lies in crafting dynamic, engaging
+          interfaces through writing clean and optimized code and utilizing
+          cutting-edge development tools and techniques. I am also a team player
+          who thrives in collaborating with cross-functional teams to produce
+          outstanding web applications.
         </p>
       </div>
     </div>

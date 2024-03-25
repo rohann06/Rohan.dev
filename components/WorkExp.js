@@ -14,7 +14,7 @@ const WorkExp = () => {
           Work Experience
         </p>
         <h1 className=" text-[1.5rem] font-bold mb-[6rem]">
-          companies In wich I contributed ⚒️
+          Previous companies ⚒️
         </h1>
       </div>
 
