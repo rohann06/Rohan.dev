@@ -17,12 +17,12 @@ const HeroSection = () => {
           <div className="flex flex-col-reverse lg:flex-row items-center justify-around">
             <div className=" md:pr-14">
               <h1 className=" text-[1.9rem] lg:text-[3.6rem] leading-[3rem] lg:leading-[4.4rem] font-bold my-[1.1rem] md:my-[2rem]">
-                Front-End Developer 👋🏼
+                A Developer 👋🏼
               </h1>
               <p className=" md:text-lg p-2 text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
                 Hi, I'm{" "}
                 <span className=" text-[#4f4f4f] font-bold">Rohan Ahire</span>.
-                A passionate Front-end Developer based in <br /> India📍
+                A Passionate Developer Based in India📍
               </p>
               <p className=" md:text-lg p-2 text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
                 Here is my{" "}

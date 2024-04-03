@@ -10,14 +10,12 @@ const ProjectCard_1 = ({ title, description, repoLink, appLink, image }) => {
 
   useEffect(() => {
     Aos.init({
-      duration: 500,
-      offset: 100,
+      duration: 1000,
     });
   }, []);
 
   return (
     <div
-      data-aos="fade-up"
       className=" bg-white flex lg:flex-row flex-col justify-between items-center  gap-5  shadow-lg py-7 px-5 my-10 lg:my-12 rounded-xl"
     >
       <div className=" shadow-md rounded-2xl overflow-hidden">

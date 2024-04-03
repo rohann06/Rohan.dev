@@ -9,9 +9,9 @@ const JobCrad = ({ title, company, desceription, url }) => {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className=" hover:text-[#147efb]"
+            className=" hover:text-[#147efb] underline"
           >
-            {company}{" "}
+            {company}
           </a>{" "}
           <span className=" text-gray-400 text-[1.2rem]">({title})</span>
         </p>

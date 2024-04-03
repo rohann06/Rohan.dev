@@ -20,16 +20,11 @@ const Projects = () => {
       }
     };
     project();
-
-    Aos.init({
-      duration: 1000,
-      offset: 220,
-    });
   }, []);
 
   return (
     <div
-      data-aos="fade-in"
+      data-aos="fade-up"
       id="project"
       className=" bg-[#f9f9f9] px-3 lg:px-96 py-[5rem] lg:py-[5rem]"
     >
