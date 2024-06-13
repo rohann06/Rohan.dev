@@ -69,11 +69,6 @@ const HeroSection = () => {
           </div>
 
           <div className=" flex flex-col lg:flex-row items-center gap-5 py-10 lg:pt-16">
-            <div>
-              <h1 className=" text-[1.2rem] font-black font-Mulish lg:pr-5">
-                Tech Stack :
-              </h1>
-            </div>
             <div className=" flex flex-wrap justify-center items-center  gap-6 lg:gap-7">
               {data.map((logo) => {
                 return (
