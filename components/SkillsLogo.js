@@ -14,7 +14,7 @@ const SkillsLogo = ({ src, alt, className }) => {
         alt={alt}
         height={500}
         width={500}
-        className=" w-16 md:w-20 p-4 md:p-5"
+        className=" w-16 md:w-[65px] p-4 md:p-3"
       />
     </div>
   );
