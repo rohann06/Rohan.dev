@@ -39,7 +39,7 @@ const ProjectCard_1 = ({ title, description, repoLink, appLink, image }) => {
       <div className=" flex flex-col justify-between lg:w-[50%] lg:px-10 text-center">
         <div>
           <h3 className=" mb-5 text-[1.5rem] font-bold">{title}</h3>
-          <p className=" text-lg text-[#767676] ">{description}</p>
+          <p className=" text-lg text-[#767676] text-justify">{description}</p>
         </div>
 
         <div className=" flex justify-evenly text-[1.3rem] font-medium mt-[3rem]">

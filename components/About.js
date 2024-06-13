@@ -52,14 +52,14 @@ const About = () => {
         <h1 data-aos="fade-right" className=" text-[25px] font-bold mb-[1rem]">
           Passionate Developer.
         </h1>
-        <p data-aos="fade-right" className=" text-[#8e8e8e] font-Mulish">
-          As a Front-End Developer, I possess an impressive arsenal of skills in{" "}
+        <p data-aos="fade-right" className=" text-[#8e8e8e] font-Mulish text-justify">
+          As a Developer, I possess an impressive arsenal of skills in{" "}
           <span className=" text-black font-medium">
-            Next.js14 , JavaScript , Typescript, Prisma, supabase, Tailwind CSS
-            and PostgreSQL
+            Next.js14 , JavaScript , Typescript, React query, Solidity, HardHad, Prisma, Tailwind CSS
+            and PostgreSQL  
           </span>{" "}
-          Also have a full knowledhe fo{" "}
-          <span className=" text-black font-medium">MERN stack</span> and also
+          and have a functional knowledhe fo{" "}
+          <span className=" text-black font-medium">MERN stack</span> also
           have a good understanding of DevOps tools like{" "}
           <span className=" text-black font-medium">Docker and AWS.</span> I
           excel in build and maintaining responsive websites that offer a smooth
