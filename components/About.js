@@ -51,7 +51,7 @@ const About = () => {
           About
         </p>
         <h1 data-aos="fade-right" className=" text-[25px] font-bold mb-[1rem]">
-          A Passionate Developer.
+          A dev who loves to build.
         </h1>
         <p
           data-aos="fade-right"
@@ -61,7 +61,8 @@ const About = () => {
           currently active in{" "}
           <a
             className=" font-bold text-blue-500"
-            href="https://x.com/developer_dao"
+            target="_blank"
+            href="https://x.com/buidlguidl"
           >
             {" "}
             BuidlGuidl{" "}
@@ -69,7 +70,8 @@ const About = () => {
           and{" "}
           <a
             className=" font-bold text-blue-500"
-            href="https://x.com/buidlguidl"
+            target="_blank"
+            href="https://x.com/developer_dao"
           >
             {" "}
             DeveloperDAO
