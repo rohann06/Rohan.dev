@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import React, { useEffect } from "react";
 import img from "../public/about.webp";
@@ -50,24 +51,37 @@ const About = () => {
           About
         </p>
         <h1 data-aos="fade-right" className=" text-[25px] font-bold mb-[1rem]">
-          Passionate Developer.
+          A Passionate Developer.
         </h1>
-        <p data-aos="fade-right" className=" text-[#8e8e8e] font-Mulish text-justify">
-          As a Developer, I possess an impressive arsenal of skills in{" "}
+        <p
+          data-aos="fade-right"
+          className=" text-[#8e8e8e] font-Mulish text-justify"
+        >
+          I'm a developer who enjoys building and contributing to open source,
+          currently active in{" "}
+          <a
+            className=" font-bold text-blue-500"
+            href="https://x.com/developer_dao"
+          >
+            {" "}
+            BuidlGuidl{" "}
+          </a>{" "}
+          and{" "}
+          <a
+            className=" font-bold text-blue-500"
+            href="https://x.com/buidlguidl"
+          >
+            {" "}
+            DeveloperDAO
+          </a>
+          . I build responsive websites using tools like{" "}
           <span className=" text-black font-medium">
-            Next.js14 , JavaScript , Typescript, React query, Solidity, HardHad, Prisma, Tailwind CSS
-            and PostgreSQL  
+            {" "}
+            JavaScript, TypeScript, Next.js, Solidity, and Hardhat.
           </span>{" "}
-          and have a functional knowledhe fo{" "}
-          <span className=" text-black font-medium">MERN stack</span> also
-          have a good understanding of DevOps tools like{" "}
-          <span className=" text-black font-medium">Docker and AWS.</span> I
-          excel in build and maintaining responsive websites that offer a smooth
-          user experience. My expertise lies in crafting dynamic, engaging
-          interfaces through writing clean and optimized code and utilizing
-          cutting-edge development tools and techniques. I am also a team player
-          who thrives in collaborating with cross-functional teams to produce
-          outstanding web applications.
+          I'm skilled in crafting dynamic interfaces with clean code and have
+          experience with DevOps tools like Docker and AWS. I thrive in team
+          settings, collaborating to create great web applications.
         </p>
       </div>
     </div>
