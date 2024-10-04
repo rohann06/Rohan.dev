@@ -25,6 +25,17 @@ const HeroSection = () => {
                 <br />A developer who enjoys building ⚒️. <br /> Regardless of
                 the tech stack or language.
               </p>
+              <p className=" md:text-lg p-1 pt-3 text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
+                My{" "}
+                <a
+                  href="https://docs.google.com/document/d/116Cf61wHpLllhKfnkd4y-w8NTB467extHP3zRwstALw/edit?usp=sharing"
+                  target="_blank"
+                  className=" text-[#147efb] font-bold underline"
+                >
+                  Resume
+                </a>
+                📄
+              </p>
               <div className=" flex items-center justify-center lg:justify-start gap-5 text-[20px] lg:text-[23px] my-5 lg:my-10 ">
                 {socials.map((social) => (
                   <>
