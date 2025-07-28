@@ -15,17 +15,17 @@ const HeroSection = () => {
       <div>
         <div className=" pt-24 lg:pt-16">
           <div className="flex flex-col-reverse lg:flex-row items-center justify-around">
-            <div className=" md:pr-14">
-              <h1 className=" text-[1.9rem] lg:text-[3.6rem] leading-[3rem] lg:leading-[4.4rem] font-bold my-[1.1rem] md:my-[2rem]">
+            <div className=" lg:pr-14">
+              <h1 className=" text-[1.9rem] lg:text-[3.6rem] leading-[3rem] lg:leading-[4.4rem] font-bold my-[1.1rem] lg:my-[2rem]">
                 A Developer 👋🏼
               </h1>
-              <p className=" md:text-lg p-1 text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
+              <p className=" lg:text-lg p-1 text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
                 Hi, I'm{" "}
                 <span className=" text-[#4f4f4f] font-bold">Rohan Ahire</span>.{" "}
                 <br />A developer who enjoys building ⚒️. <br /> Regardless of
                 the tech stack or language.
               </p>
-              <p className=" md:text-lg p-1 pt-3 text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
+              <p className=" lg:text-lg p-1 pt-3 text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
                 My{" "}
                 <a
                   href="https://docs.google.com/document/d/116Cf61wHpLllhKfnkd4y-w8NTB467extHP3zRwstALw/edit?usp=sharing"
@@ -58,13 +58,13 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className=" relativ overflow-hidden md:h-[21rem] md:w-[20rem]">
+            <div className=" relativ overflow-hidden lg:h-[21rem] lg:w-[20rem]">
               <Image
-                src={"/mypic.jpg"}
+                src={"/myimg2.jpeg"}
                 width={400}
                 height={400}
                 alt={"mtpic"}
-                className="my-img bg-cover h-[16rem] w-[16rem]  rounded-full md:h-full md:w-full"
+                className="my-img overflow-hidden h-[16rem] w-[16rem]  rounded-full lg:h-full lg:w-full opacity-90"
               />
             </div>
           </div>

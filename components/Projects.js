@@ -1,27 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { supabase } from "../supabaseClient";
-import Aos from "aos";
 import "aos/dist/aos.css";
 import ProjectCard_1 from "./ProjectCard_1";
 import ProjectCard_2 from "./ProjectCard_2";
+import { projects } from "../utils/_projectdb";
 
 const Projects = () => {
-  const [projects, setProjects] = useState();
-
-  useEffect(() => {
-    const project = async () => {
-      const { data, error } = await supabase.from("Projects").select();
-
-      if (data) {
-        setProjects(data);
-      }
-      if (error) {
-        console.log(error);
-      }
-    };
-    project();
-  }, []);
-
   return (
     <div
       data-aos="fade-up"
