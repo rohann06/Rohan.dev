@@ -58,13 +58,13 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className=" relativ overflow-hidden lg:h-[21rem] lg:w-[20rem]">
+            <div className=" relativ overflow-hidden lg:h-[23rem] lg:w-[19rem]">
               <Image
-                src={"/myimg2.jpeg"}
+                src={"/mypic.jpg"}
                 width={400}
                 height={400}
                 alt={"mtpic"}
-                className="my-img overflow-hidden h-[16rem] w-[16rem]  rounded-full lg:h-full lg:w-full opacity-90"
+                className="my-img overflow-hidden h-full w-full mask-radial-at-center rounded-full lg:h-full lg:w-full opacity-90 bg-cover"
               />
             </div>
           </div>
