@@ -28,7 +28,7 @@ const HeroSection = () => {
               <p className=" lg:text-lg p-1 pt-3 text-[#767676] font-Mulish w-[100%] lg:w-[85%]">
                 My{" "}
                 <a
-                  href="https://docs.google.com/document/d/116Cf61wHpLllhKfnkd4y-w8NTB467extHP3zRwstALw/edit?usp=sharing"
+                  href="https://drive.google.com/file/d/1yC9DH8gHlczFtG0UWsWZrZ31VbY2xNvS/view?usp=sharing"
                   target="_blank"
                   className=" text-[#147efb] font-bold underline"
                 >
