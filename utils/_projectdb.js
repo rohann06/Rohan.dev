@@ -5,6 +5,8 @@ export const projects = [
     githubUrl: "https://github.com/rohann06/younique_store",
     projectImageUrl: "/projects/younique.png",
     appUrl: "https://younique.vercel.app/",
+    skills:
+      "NextJs, TypeScript, Tailwind css, Framer motion, Supabase, Sanity, canvas-confetti",
     description:
       "This is an e-commerce clothing website I built for my own brand. I created it to learn full-stack development while starting a small side business.",
   },
@@ -15,6 +17,7 @@ export const projects = [
     projectImageUrl: "/projects/crowdFund.png",
     appUrl:
       "https://crowd-funding-cm1n-71uuqbmgn-rohana6s-projects.vercel.app/",
+    skills: "NextJs, TypeScript, Tailwind css, Wagmi, RainbowKit",
     description:
       "Built a decentralized crowdfunding platform where users can create and contribute to campaigns directly on the blockchain.Tech syack I've used was Next.js, Wagmi, RainbowKit, Solidity",
   },
@@ -24,6 +27,7 @@ export const projects = [
     githubUrl: "https://github.com/rohann06/Posts",
     projectImageUrl: "/projects/posts.png",
     appUrl: "https://posts-blush-eight.vercel.app/",
+    skills: "NextJs, TypeScript, Tailwind css, Wagmi, RainbowKit",
     description:
       "Built a Web3-powered dApp enabling users to connect Ethereum wallets (via RainbowKit) to create and explore posts on-chain.Developed with Solidity smart contracts, Next.js, Wagmi, and RainbowKit for a seamless decentralized experience.",
   },
@@ -33,6 +37,8 @@ export const projects = [
     githubUrl: "https://github.com/Developer-DAO/academy-turbo",
     projectImageUrl: "/projects/academy.png",
     appUrl: "https://academy.developerdao.com/",
+    skills:
+      "NextJs, TypeScript, Tailwind css, Wagmi, RainbowKit, Suopabase, Story book",
     description:
       "Contributed to Developer DAO Academy, an open-source platform offering free web3 and blockchain educational resources.",
   },
@@ -42,6 +48,7 @@ export const projects = [
     githubUrl: "https://github.com/rohann06/make_your_meal",
     projectImageUrl: "/projects/mym.png",
     appUrl: "https://make-your-meal-git-main-rohana6s-projects.vercel.app/",
+    skills: "NextJs, JavaScript, Tailwind css, Framer motion, React splide",
     description:
       "This is a Next.js project I made to learn about the APIs and how to fetch, filter, and managis the data we receive from teh APi",
   },

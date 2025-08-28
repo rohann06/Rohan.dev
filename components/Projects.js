@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { supabase } from "../supabaseClient";
+import React from "react";
 import "aos/dist/aos.css";
 import ProjectCard_1 from "./ProjectCard_1";
 import ProjectCard_2 from "./ProjectCard_2";
@@ -34,6 +33,7 @@ const Projects = () => {
                     repoLink={project.githubUrl}
                     appLink={project.appUrl}
                     image={project.projectImageUrl}
+                    skills={project.skills}
                   />
                 ) : (
                   <ProjectCard_2
@@ -43,6 +43,7 @@ const Projects = () => {
                     repoLink={project.githubUrl}
                     appLink={project.appUrl}
                     image={project.projectImageUrl}
+                    skills={project.skills}
                   />
                 )}
               </div>
