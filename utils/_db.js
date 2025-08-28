@@ -47,4 +47,8 @@ export const data = [
     src: "/ttq.png",
     dataaosduration: "1600",
   },
+  {
+    src: "/ex.webp",
+    dataaosduration: "1600",
+  },
 ];
