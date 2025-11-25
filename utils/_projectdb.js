@@ -1,6 +1,16 @@
 export const projects = [
   {
     id: "0",
+    title: "FoodScroll",
+    githubUrl: "https://github.com/rohann06/reel_zomato_frontend",
+    projectImageUrl: "/projects/foodscroll.png",
+    appUrl: "https://foodscroll06.vercel.app/",
+    skills: "NextJs, TypeScript, Tailwind css, MongoDB, ExpressJs, NodeJs",
+    description:
+      "A TikTok-inspired food delivery app where users browse short food reels to place orders. The platform supports two roles: customers who order, and Food Partners who create and upload video content for their dishes.",
+  },
+  {
+    id: "1",
     title: "YOUnique store",
     githubUrl: "https://github.com/rohann06/younique_store",
     projectImageUrl: "/projects/younique.png",
@@ -11,7 +21,7 @@ export const projects = [
       "This is an e-commerce clothing website I built for my own brand. I created it to learn full-stack development while starting a small side business.",
   },
   {
-    id: "1",
+    id: "2",
     title: "Crowd Funding",
     githubUrl: "https://github.com/rohann06/Crowd-Funding",
     projectImageUrl: "/projects/crowdFund.png",
@@ -22,7 +32,7 @@ export const projects = [
       "Built a decentralized crowdfunding platform where users can create and contribute to campaigns directly on the blockchain.Tech syack I've used was Next.js, Wagmi, RainbowKit, Solidity",
   },
   {
-    id: "2",
+    id: "3",
     title: "Posts",
     githubUrl: "https://github.com/rohann06/Posts",
     projectImageUrl: "/projects/posts.png",
@@ -32,7 +42,7 @@ export const projects = [
       "Built a Web3-powered dApp enabling users to connect Ethereum wallets (via RainbowKit) to create and explore posts on-chain.Developed with Solidity smart contracts, Next.js, Wagmi, and RainbowKit for a seamless decentralized experience.",
   },
   {
-    id: "3",
+    id: "4",
     title: "D_D Academy",
     githubUrl: "https://github.com/Developer-DAO/academy-turbo",
     projectImageUrl: "/projects/academy.png",
@@ -43,7 +53,7 @@ export const projects = [
       "Contributed to Developer DAO Academy, an open-source platform offering free web3 and blockchain educational resources.",
   },
   {
-    id: "4",
+    id: "5",
     title: "Make your meal",
     githubUrl: "https://github.com/rohann06/make_your_meal",
     projectImageUrl: "/projects/mym.png",
