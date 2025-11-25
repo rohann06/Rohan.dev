@@ -7,7 +7,7 @@ export const projects = [
     appUrl: "https://foodscroll06.vercel.app/",
     skills: "NextJs, TypeScript, Tailwind css, MongoDB, ExpressJs, NodeJs",
     description:
-      "A TikTok-inspired food delivery app where users browse short food reels to place orders. The platform supports two roles: customers who order, and Food Partners who create and upload video content for their dishes.",
+      "A TikTok-inspired food delivery app where users browse short food reels to place orders. The platform supports two roles: customers who order, and Food Partners who create and upload video content.",
   },
   {
     id: "1",
