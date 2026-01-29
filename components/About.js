@@ -79,8 +79,8 @@ const About = () => {
           . I build responsive websites using tools like{" "}
           <span className=" text-black font-semibold">
             {" "}
-            Next.js, ReactJs, JavaScript, TypeScript, Solidity, Hardhat,
-            ExpressJs, Postgresql, and TailwindCSS.
+            Next.js, ReactJs, Wagmi, JavaScript, TypeScript, ExpressJs, mongoDB,
+            Solidity, Hardhat, Postgresql, and TailwindCSS.
           </span>{" "}
           I'm skilled in crafting dynamic interfaces with clean code and have
           experience with DevOps tools like Docker and AWS. I thrive in team
